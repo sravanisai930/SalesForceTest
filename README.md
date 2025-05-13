@@ -46,3 +46,13 @@
   - Enable CDC for the Opportunity object.
   - Subscribe using a CDC trigger or Platform Event listener.
   - Call an external API when changes are detected.
+    
+## 8.Integration Testing
+-"Write test classes for Apex callouts:
+1. Use HttpCalloutMock for testing."
+
+## 9."Project Goal: Build an end-to-end integration:
+1. Inbound API: Create a Salesforce Contact from an external system.
+2. Outbound Callout: Fetch data from a free API and relate it to the Contact.
+3. Scheduled Job: Periodically update the Contact data.
+4. Include proper error handling and test classes."
