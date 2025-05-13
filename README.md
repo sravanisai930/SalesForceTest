@@ -39,14 +39,7 @@
   2. Store the data in a `Weather_Integration__c` object.
   3. Send an outbound HTTP POST to a mock external system to confirm receipt.
 
-## 7. 🚨 Error Handling in Integrations
-- **Goal**: Implement robust error handling.
-- **Techniques**:
-  - Use `try-catch` blocks for callouts.
-  - Define custom exceptions for specific failure cases.
-  - Add retry logic (exponential backoff or retry counter) for failed callouts.
-
-## 8. 🛰 Change Data Capture (CDC) to External API
+## 7. 🛰 Change Data Capture (CDC) to External API
 - **Goal**: React to Opportunity changes and notify external systems.
 - **Implementation**:
   - Enable CDC for the Opportunity object.
