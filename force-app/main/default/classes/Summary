@@ -1,0 +1,10 @@
+1. Use Workbench to test Salesforce REST API (Query accounts). (Example for workbench and postman)(HTTP PUT).
+AccountRecordsManagerService.cls 
+AccountRecordsManagerService.cls-meta.xml
+1. Use Workbench to test Salesforce REST API (Query accounts). (Example for workbench and postman)(HTTP POST).
+Newaccountmanager.cls
+Newaccountmanager.cls-meta.xml
+PostmanDataCreationController.cls
+PostmanDataCreationController.cls-meta.xml
+BulkHiringManagerRecordsService.cls
+BulkHiringManagerRecordsService.cls-meta.xml
