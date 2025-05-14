@@ -1,5 +1,5 @@
 public class BitCoinPrices {
-    public static void fetchBitcoin() {
+    public static void fetchBitcoinR() {
         String url ='https://api.coindesk.com/v1/bpi/currentprice.json';
         
         HttpRequest req =new HttpRequest();

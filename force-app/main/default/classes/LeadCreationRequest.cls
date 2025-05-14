@@ -1,6 +1,6 @@
 public class LeadCreationRequest {
     
-    public static void createLead(String FirstName, String LastName, string Company, string Status, string Phone, string Email) {
+    public static void createLeadR(String FirstName, String LastName, string Company, string Status, string Phone, string Email) {
         Http http = new Http();
         HttpRequest request = new HttpRequest();
     	request.setEndpoint('callout:sf_name_card/services/apexrest/LeadCreationSFtoSF');

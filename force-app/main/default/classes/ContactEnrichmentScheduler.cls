@@ -1,4 +1,4 @@
-public class ContactEnrichmentScheduler implements Schedulable {
+public class ContactEnrichmentSchedulerR implements Schedulable {
     public void execute(SchedulableContext sc) {
         List<Contact> contacts = [SELECT Id, Description FROM Contact LIMIT 10];
         

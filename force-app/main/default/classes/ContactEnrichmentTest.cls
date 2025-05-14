@@ -2,7 +2,7 @@
 private class ContactEnrichmentTest {
     
     @isTest
-    static void testEnrichContact() {
+    static void testEnrichContactR() {
         // Create test contact
         Contact c = new Contact(FirstName = 'Test', LastName = 'User');
         insert c;

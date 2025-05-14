@@ -1,5 +1,5 @@
 public class CoinDeckoAPI {
-    public static void getBitcoinPrice() {
+    public static void getBitcoinPriceR() {
         String url = 'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd,eur,gbp';
         HttpRequest req = new HttpRequest();
         req.setEndpoint(url);

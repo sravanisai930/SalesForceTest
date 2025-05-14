@@ -1,5 +1,5 @@
 public class WeatherFetcher {
-    public static void fetchWeatherData() {
+    public static void fetchWeatherDataR() {
         String city = 'London';
         String apiKey = '016ac5bd07d0d89c455ba25a19f77c30'; 
         String url = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=' + apiKey;

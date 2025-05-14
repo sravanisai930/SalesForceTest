@@ -1,5 +1,5 @@
 public class ContactEnrichmentService {
-    public static void enrichContact(Id contactId) {
+    public static void enrichContactR(Id contactId) {
         System.debug('=== Starting enrichContact method ===');
         System.debug('Input contactId: ' + contactId);
         

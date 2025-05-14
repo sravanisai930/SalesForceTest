@@ -1,5 +1,5 @@
 public class WeatherDataScheduler implements Schedulable {
-     public void execute(SchedulableContext context) {
+     public void executeR(SchedulableContext context) {
         WeatherFetcher.fetchWeatherData();
     }
 

@@ -1,7 +1,7 @@
 @RestResource(urlMapping='/externalcontact/*')
 global with sharing class CreateContact {
     @HttpPost
-    global static String createContact() {
+    global static String createContactR() {
         try {
             // Read the raw JSON body
             String jsonBody = RestContext.request.requestBody.toString();

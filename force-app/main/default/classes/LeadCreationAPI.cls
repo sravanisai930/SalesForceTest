@@ -2,7 +2,7 @@
 global with sharing class LeadCreationAPI {
  
     @HttpPost
-    global static String createLead(String firstName, String lastName, String company, String email, String phone) {
+    global static String createLeadR(String firstName, String lastName, String company, String email, String phone) {
         try {
             // Check if required parameters are provided
             if (String.isBlank(firstName) || String.isBlank(lastName) || String.isBlank(company)) {
